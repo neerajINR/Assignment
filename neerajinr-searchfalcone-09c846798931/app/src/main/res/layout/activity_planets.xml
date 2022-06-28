@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Activities.Planets"
+        android:orientation="vertical"
+        android:background="#000000"
+        android:weightSum="4">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SELECT ANY FOUR PLANETS"
+                android:textSize="25sp"
+                android:textColor="#DC1414"
+                android:textStyle="bold"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="15dp"
+                android:layout_centerHorizontal="true"/>
+
+
+        </RelativeLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:weightSum="2">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+                <ImageView
+                    android:id="@+id/donlon_img"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:src="@drawable/planet_donlon"
+                    android:layout_centerInParent="true"/>
+                <TextView
+                    android:layout_below="@+id/donlon_img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="DONLON"
+                    android:textSize="10sp"
+                    android:textColor="#DC1414"
+                    android:textStyle="bold"
+                    android:layout_centerHorizontal="true" />
+                <CheckBox
+                    android:clickable="false"
+                    android:id="@+id/donlon_checkbox"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/enchai_img"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/planet_enchai" />
+            <TextView
+                android:layout_below="@+id/enchai_img"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="ENCHAI"
+                android:textSize="10sp"
+                android:textColor="#DC1414"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true" />
+                <CheckBox
+                    android:clickable="false"
+                    android:id="@+id/enchai_checkbox"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+        </RelativeLayout>
+
+
+</LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:weightSum="2">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/jebing_img"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@drawable/planet_jebing"
+                android:layout_centerInParent="true"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/jebing_img"
+                    android:layout_centerHorizontal="true"
+                    android:text="JEBING"
+                    android:textColor="#DC1414"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
+                <CheckBox
+                    android:clickable="false"
+                    android:id="@+id/jebing_checkbox"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+        </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/sapir_img"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@drawable/planet_sapir"
+                android:layout_centerInParent="true"/>
+    <TextView
+        android:layout_below="@+id/sapir_img"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="SAPIR"
+        android:textSize="10sp"
+        android:textColor="#DC1414"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true" />
+                <CheckBox
+                    android:clickable="false"
+                    android:id="@+id/sapir_checkbox"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+     </RelativeLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:weightSum="2">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/lerbin_img"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@drawable/planet_lerbin"
+                android:layout_centerInParent="true"
+                />
+                <TextView
+                    android:layout_below="@+id/lerbin_img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="LERBIN"
+                    android:textSize="10sp"
+                    android:textColor="#DC1414"
+                    android:textStyle="bold"
+                    android:layout_centerHorizontal="true" />
+                <CheckBox
+                    android:clickable="false"
+                    android:id="@+id/lerbin_checkbox"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/pingasor_img"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@drawable/planet_pingasor"
+                android:layout_centerInParent="true"/>
+                <TextView
+                    android:layout_below="@+id/pingasor_img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="PINGASOR"
+                    android:textSize="10sp"
+                    android:textColor="#DC1414"
+                    android:textStyle="bold"
+                    android:layout_centerHorizontal="true" />
+                <CheckBox
+                    android:clickable="false"
+                    android:id="@+id/pingasor_checkbox"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+
+
+
+
+        </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5">
+
+        <Button
+            android:id="@+id/done_btn"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:text="FIND FALCONE"
+            android:textStyle="bold"
+            android:elevation="10dp"
+            android:background="@drawable/button_rounded"/>
+        <ProgressBar
+            android:id="@+id/planets_progressbar"
+            android:visibility="gone"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="25dp"
+            android:elevation="10dp"
+            android:indeterminateTint="#DC1414"/>
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

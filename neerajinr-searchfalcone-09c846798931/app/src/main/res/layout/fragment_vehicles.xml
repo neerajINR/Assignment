@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000000"
+    tools:context=".Fragments.VehiclesFragment">
+    <ImageButton
+        android:visibility="invisible"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:src="@drawable/back_arrow_img"
+        android:background="@null"
+        android:id="@+id/back_btn_img"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CHOOSE YOUR VEHICLE"
+            android:textSize="25sp"
+            android:textColor="#DC1414"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="10dp"
+            android:layout_centerHorizontal="true"/>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radio_group">
+
+        <RadioButton
+            android:id="@+id/space_pod_radio_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  SPACE POD  (2/2)  "
+            android:checked="false"
+            android:drawableRight="@drawable/space_pod_img"
+            android:textColor="#DC1414"
+            android:textStyle="bold"
+            android:buttonTint="#DC1414"
+            android:layout_marginTop="10dp"
+            android:textSize="16dp" />
+        <RadioButton
+            android:drawableRight="@drawable/space_rocket_img"
+            android:id="@+id/space_rocket_radio_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  SPACE ROCKET  (1/1)  "
+            android:layout_marginTop="10dp"
+            android:checked="false"
+            android:textColor="#DC1414"
+            android:textStyle="bold"
+            android:buttonTint="#DC1414"
+            android:textSize="16dp" />
+
+        <RadioButton
+            android:id="@+id/space_shuttle_radio_btn"
+            android:drawableRight="@drawable/space_shuttle_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  SPACE SHUTTLE  (1/1)  "
+            android:layout_marginTop="10dp"
+            android:checked="false"
+            android:textColor="#DC1414"
+            android:textStyle="bold"
+            android:buttonTint="#DC1414"
+            android:textSize="16dp" />
+        <RadioButton
+            android:drawableRight="@drawable/space_ship_img"
+            android:id="@+id/space_ship_radio_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  SPACE SHIP (2/2)  "
+            android:layout_marginTop="10dp"
+            android:checked="false"
+            android:textColor="#DC1414"
+            android:textStyle="bold"
+            android:buttonTint="#DC1414"
+            android:textSize="16dp" />
+    </RadioGroup>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/yes_btn">
+        <Button
+            android:id="@+id/find_btn"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:text="DONE"
+            android:textStyle="bold"
+            android:background="@drawable/button_rounded"/>
+    </RelativeLayout>
+
+</LinearLayout>
